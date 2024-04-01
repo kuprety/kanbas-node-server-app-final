@@ -2,47 +2,47 @@ export default [
     {
       _id: "1",
       user: "121",
-      course: "RS101",
+      course: "CS1234",
     },
     {
       _id: "2",
       user: "122",
-      course: "RS101",
+      course: "CS1234",
     },
     {
       _id: "3",
       user: "123",
-      course: "RS101",
+      course: "CS1234",
     },
     {
       _id: "4",
       user: "124",
-      course: "RS102",
+      course: "CS4550",
     },
     {
       _id: "5",
       user: "125",
-      course: "RS102",
+      course: "CS4550",
     },
     {
       _id: "6",
       user: "126",
-      course: "RS102",
+      course: "CS4550",
     },
     {
       _id: "7",
       user: "121",
-      course: "RS103",
+      course: "CS3200",
     },
     {
       _id: "8",
       user: "124",
-      course: "RS103",
+      course: "CS3200",
     },
     {
       _id: "9",
       user: "127",
-      course: "RS103",
+      course: "CS3200",
     },
   ];
   
