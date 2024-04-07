@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "kanbas-node-server-app",
+  "name": "kanbas-node-server-app-final",
   "version": "1.0.0",
   "description": "Node.js HTTP Web server for the Kanbas application",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kuprety/kanbas-node-server-app.git"
+    "url": "git+https://github.com/kuprety/kanbas-node-server-app-final.git"
   },
   "keywords": [
     "Node",

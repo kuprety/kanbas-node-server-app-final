@@ -143,6 +143,19 @@ const Lab5 = (app) => {
         res.send(result.toString());
     });
 
+    app.get("/a5/multiply/:a/:b", (req, res) => {
+      const { a, b } = req.params;
+      const result = parseInt(a) * parseInt(b);
+      res.send(result.toString());
+    });
+
+    app.get("/a5/divide/:a/:b", (req, res) => {
+      const { a, b } = req.params;
+      const result = parseInt(a) / parseInt(b);
+      res.send(result.toString());
+    });
+
+    
     app.get('/a5/module', (req, res) => {
         const moduleObject = {
             id: 1,
