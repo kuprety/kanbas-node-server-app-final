@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 const quizSchema = new mongoose.Schema({
+    published: Boolean,
     name: String,
     course: String,
     title: String,
