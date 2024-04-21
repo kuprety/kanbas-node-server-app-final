@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const quizSchema = new mongoose.Schema({
-    _id: String,
+    _id: mongoose.Schema.Types.ObjectId, //this or id?
     name: String,
     course: String,
     title: String,
@@ -26,5 +26,5 @@ const quizSchema = new mongoose.Schema({
     dueDate: Date,
     availableDate: Date,
     untilDate: Date,
-},   { collection: "users" });
+},   { collection: "quizzes" });
 export default quizSchema;

@@ -14,7 +14,7 @@ export default function QuizRoutes(app) {
         const quizzes = await dao.findAllQuizzes();
         res.json(quizzes);
     };
-    const findQuizrById = async (req, res) => {
+    const findQuizById = async (req, res) => {
         const quiz = await dao.findQuizById(req.params.quizId);
         res.json(quiz);
     };
