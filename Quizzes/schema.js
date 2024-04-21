@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
 const quizSchema = new mongoose.Schema({
-    _id: String,
     name: String,
     course: String,
     title: String,
@@ -16,7 +15,7 @@ const quizSchema = new mongoose.Schema({
         enum: ["Quizzes", "Exams", "Assignments", "Project"],
     },
     shuffleAnswers: Boolean,
-    timeLimit: Number, // in minutes
+    timeLimit: Number,
     multipleAttempts: Boolean,
     showCorrectAnswers: Boolean,
     accessCode: String,
@@ -26,5 +25,5 @@ const quizSchema = new mongoose.Schema({
     dueDate: Date,
     availableDate: Date,
     untilDate: Date,
-},   { collection: "users" });
+},   { collection: "quizzes" });
 export default quizSchema;
