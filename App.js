@@ -11,7 +11,7 @@ import Lab5 from './Lab5.js'
 import CourseRoutes from "./Kanbas/Courses/routes.js";
 import ModuleRoutes from "./Kanbas/Modules/routes.js";
 import QuizRoutes from "./Quizzes/routes.js";
-
+import QuizQuestionsRoutes from "./QuizQuestions/routes.js";
 import cors from "cors";
 
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas';
@@ -54,6 +54,7 @@ CourseRoutes(app);
 Lab5(app);
 Hello(app);
 QuizRoutes(app);
+QuizQuestionsRoutes(app);
 app.listen(process.env.PORT || 4000);
 
 
