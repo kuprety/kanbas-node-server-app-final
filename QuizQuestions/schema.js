@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 
 const quizQuestionsSchema = new mongoose.Schema({
@@ -12,7 +12,8 @@ const quizQuestionsSchema = new mongoose.Schema({
     choices: [String],
     correctAnswer: {
         type: String,
-        type: Boolean,
+        content: Schema.Types.Mixed
+        // type: Boolean,
     },
     possibleAnswers: [String],
     points: Number,
